@@ -40,3 +40,20 @@ export interface IssueProject {
   packageManager: string;
   targetFile: string;
 }
+
+export interface IssueFilters {
+  date: {
+    from: string;
+    to: string;
+  };
+  orgs: string[];
+  severity: string[];
+  types: string[];
+  languages: string[];
+  ignored: boolean;
+  patched: boolean;
+  fixable: boolean;
+  isFixed: boolean;
+  isUpgradable: boolean;
+  isPatchable: boolean;
+}

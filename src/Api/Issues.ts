@@ -1,5 +1,5 @@
 import { Client } from "../Client";
-import { IssuesResponse } from "./IssuesList.types";
+import { IssuesResponse, IssueFilters } from "./IssuesList.types";
 
 export class Issues {
   private client: Client;
@@ -8,29 +8,24 @@ export class Issues {
     this.client = client;
   }
 
-  public async getAll(): Promise<IssuesResponse[]> {
-    const path = "/reporting/issues";
-
-    const queryParams = {
-      from: "2018-01-01",
-      to: "2019-01-01",
-    };
-
+  public async getAll({ filters }: { filters: IssueFilters }): Promise<IssuesResponse[]> {
+    const queryParams = { ...filters["date"] };
     const requestBody = {
       filters: {
-        orgs: [""],
-        severity: ["high", "medium", "low"],
-        types: ["vuln", "license"],
-        languages: ["node", "ruby", "java", "scala", "python", "golang", "php", "dotnet"],
-        ignored: false,
-        patched: false,
-        fixable: false,
-        isFixed: false,
-        isUpgradable: false,
-        isPatchable: false,
+        orgs: filters["orgs"],
+        severity: filters["severity"],
+        types: filters["types"],
+        languages: filters["languages"],
+        ignored: filters["ignored"],
+        patched: filters["patched"],
+        fixable: filters["fixable"],
+        isFixed: filters["isFixed"],
+        isUpgradable: filters["isUpgradable"],
+        isPatchable: filters["isPatchable"],
       },
     };
 
+    const path = "/reporting/issues";
     const method = "POST";
 
     const response = await this.client.makeRequest({
