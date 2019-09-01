@@ -1,0 +1,2206 @@
+{
+  "results": [
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-COMH2DATABASE-31685",
+              "id": "SNYK-JAVA-COMH2DATABASE-31685",
+              "title": "Arbitrary Code Execution",
+              "type": "vuln",
+              "package": "com.h2database:h2",
+              "version": "1.4.196",
+              "severity": "high",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[0,]"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2018-06-06T15:07:50.000Z",
+              "disclosureTime": "2018-04-12T09:42:14.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [
+                      "CVE-2018-10054"
+                  ],
+                  "CWE": [
+                      "CWE-94"
+                  ]
+              },
+              "credit": [
+                  "Caio Vargas",
+                  "Matheus Bernardes",
+                  "Nubank"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+              "cvssScore": "8.8",
+              "patches": [],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-07-03",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/1d497770-629a-4fdd-ad06-5e24e55d3c8e",
+              "id": "1d497770-629a-4fdd-ad06-5e24e55d3c8e",
+              "name": "lirantal/spring-goof",
+              "source": "gitlab",
+              "packageManager": "maven",
+              "targetFile": "pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-COMMONSCOLLECTIONS-30078",
+              "id": "SNYK-JAVA-COMMONSCOLLECTIONS-30078",
+              "title": "Arbitrary Code Execution",
+              "type": "vuln",
+              "package": "commons-collections:commons-collections",
+              "version": "3.2.1",
+              "severity": "high",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[3.0,3.2.2)"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2015-11-06T16:51:56.000Z",
+              "disclosureTime": "2015-11-06T16:51:56.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [
+                      "CVE-2015-7501"
+                  ],
+                  "CWE": [
+                      "CWE-502"
+                  ]
+              },
+              "credit": [
+                  "Unknown"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "cvssScore": "9.8",
+              "patches": [],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-01-04",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/abd45aac-0807-4c9d-bd19-818b8e76a0d2",
+              "id": "abd45aac-0807-4c9d-bd19-818b8e76a0d2",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-web-common/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-COMMONSCOLLECTIONS-30078",
+              "id": "SNYK-JAVA-COMMONSCOLLECTIONS-30078",
+              "title": "Arbitrary Code Execution",
+              "type": "vuln",
+              "package": "commons-collections:commons-collections",
+              "version": "3.2.1",
+              "severity": "high",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[3.0,3.2.2)"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2015-11-06T16:51:56.000Z",
+              "disclosureTime": "2015-11-06T16:51:56.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [
+                      "CVE-2015-7501"
+                  ],
+                  "CWE": [
+                      "CWE-502"
+                  ]
+              },
+              "credit": [
+                  "Unknown"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "cvssScore": "9.8",
+              "patches": [],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-01-04",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/457d29e0-057b-41e6-949a-3126f5c4940b",
+              "id": "457d29e0-057b-41e6-949a-3126f5c4940b",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-web-struts/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/npm:ejs:20161128",
+              "id": "npm:ejs:20161128",
+              "title": "Arbitrary Code Execution",
+              "type": "vuln",
+              "package": "ejs",
+              "version": "0.8.8",
+              "severity": "high",
+              "language": "js",
+              "packageManager": "npm",
+              "semver": {
+                  "vulnerable": [
+                      "<2.5.3"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2016-11-28T18:44:12.000Z",
+              "disclosureTime": "2016-11-27T22:00:00.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [
+                      "CVE-2017-1000228"
+                  ],
+                  "CWE": [
+                      "CWE-94"
+                  ],
+                  "ALTERNATIVE": [
+                      "SNYK-JS-EJS-10218"
+                  ]
+              },
+              "credit": [
+                  "Snyk Security Research Team"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "cvssScore": "8.1",
+              "patches": [
+                  {
+                      "id": "patch:npm:ejs:20161128:0",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/ejs/20161128/ejs_20161128_0_0_3d447c5a335844b25faec04b1132dbc721f9c8f6.patch"
+                      ],
+                      "version": "<2.5.3 >=2.2.4",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.679924Z"
+                  }
+              ],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-03-04",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/b6490927-820f-4a24-b9d7-e06f62875be1",
+              "id": "b6490927-820f-4a24-b9d7-e06f62875be1",
+              "name": "lirantal-snyk/goof",
+              "source": "bitbucket-cloud",
+              "packageManager": "npm",
+              "targetFile": "package.json"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/npm:ejs:20161128",
+              "id": "npm:ejs:20161128",
+              "title": "Arbitrary Code Execution",
+              "type": "vuln",
+              "package": "ejs",
+              "version": "0.8.8",
+              "severity": "high",
+              "language": "js",
+              "packageManager": "npm",
+              "semver": {
+                  "vulnerable": [
+                      "<2.5.3"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2016-11-28T18:44:12.000Z",
+              "disclosureTime": "2016-11-27T22:00:00.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [
+                      "CVE-2017-1000228"
+                  ],
+                  "CWE": [
+                      "CWE-94"
+                  ],
+                  "ALTERNATIVE": [
+                      "SNYK-JS-EJS-10218"
+                  ]
+              },
+              "credit": [
+                  "Snyk Security Research Team"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+              "cvssScore": "8.1",
+              "patches": [
+                  {
+                      "id": "patch:npm:ejs:20161128:0",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/ejs/20161128/ejs_20161128_0_0_3d447c5a335844b25faec04b1132dbc721f9c8f6.patch"
+                      ],
+                      "version": "<2.5.3 >=2.2.4",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.679924Z"
+                  }
+              ],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-04-24",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/6df11b71-958e-4a4a-9b5b-b0528700c39f",
+              "id": "6df11b71-958e-4a4a-9b5b-b0528700c39f",
+              "name": "lirantal/goof",
+              "source": "github",
+              "packageManager": "npm",
+              "targetFile": "package.json"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:npm:bin-links:Artistic-2.0",
+              "id": "snyk:lic:npm:bin-links:Artistic-2.0",
+              "title": "Artistic-2.0 license",
+              "type": "license",
+              "package": "bin-links",
+              "version": "1.1.2",
+              "severity": "medium",
+              "language": "js",
+              "packageManager": "npm",
+              "semver": {
+                  "vulnerable": [
+                      ">=0"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-03-06",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/0633564b-f4f4-4e15-a539-5b83550c649a",
+              "id": "0633564b-f4f4-4e15-a539-5b83550c649a",
+              "name": "dockly",
+              "source": "cli",
+              "packageManager": "npm",
+              "targetFile": "package.json"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:npm:gentle-fs:Artistic-2.0",
+              "id": "snyk:lic:npm:gentle-fs:Artistic-2.0",
+              "title": "Artistic-2.0 license",
+              "type": "license",
+              "package": "gentle-fs",
+              "version": "2.0.1",
+              "severity": "medium",
+              "language": "js",
+              "packageManager": "npm",
+              "semver": {
+                  "vulnerable": [
+                      ">=0"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-03-06",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/0633564b-f4f4-4e15-a539-5b83550c649a",
+              "id": "0633564b-f4f4-4e15-a539-5b83550c649a",
+              "name": "dockly",
+              "source": "cli",
+              "packageManager": "npm",
+              "targetFile": "package.json"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:npm:npm-lifecycle:Artistic-2.0",
+              "id": "snyk:lic:npm:npm-lifecycle:Artistic-2.0",
+              "title": "Artistic-2.0 license",
+              "type": "license",
+              "package": "npm-lifecycle",
+              "version": "2.1.0",
+              "severity": "medium",
+              "language": "js",
+              "packageManager": "npm",
+              "semver": {
+                  "vulnerable": [
+                      ">=1.0.1"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-04-08",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/0633564b-f4f4-4e15-a539-5b83550c649a",
+              "id": "0633564b-f4f4-4e15-a539-5b83550c649a",
+              "name": "dockly",
+              "source": "cli",
+              "packageManager": "npm",
+              "targetFile": "package.json"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/npm:ejs:20161130",
+              "id": "npm:ejs:20161130",
+              "title": "Cross-site Scripting (XSS)",
+              "type": "vuln",
+              "package": "ejs",
+              "version": "0.8.8",
+              "severity": "medium",
+              "language": "js",
+              "packageManager": "npm",
+              "semver": {
+                  "vulnerable": [
+                      "<2.5.5"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2016-12-06T15:00:00.000Z",
+              "disclosureTime": "2016-11-27T22:00:00.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [
+                      "CVE-2017-1000188"
+                  ],
+                  "CWE": [
+                      "CWE-79"
+                  ],
+                  "ALTERNATIVE": [
+                      "SNYK-JS-EJS-10225"
+                  ]
+              },
+              "credit": [
+                  "Snyk Security Research Team"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+              "cvssScore": "5.9",
+              "patches": [],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-03-04",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/b6490927-820f-4a24-b9d7-e06f62875be1",
+              "id": "b6490927-820f-4a24-b9d7-e06f62875be1",
+              "name": "lirantal-snyk/goof",
+              "source": "bitbucket-cloud",
+              "packageManager": "npm",
+              "targetFile": "package.json"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/npm:ejs:20161130",
+              "id": "npm:ejs:20161130",
+              "title": "Cross-site Scripting (XSS)",
+              "type": "vuln",
+              "package": "ejs",
+              "version": "0.8.8",
+              "severity": "medium",
+              "language": "js",
+              "packageManager": "npm",
+              "semver": {
+                  "vulnerable": [
+                      "<2.5.5"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2016-12-06T15:00:00.000Z",
+              "disclosureTime": "2016-11-27T22:00:00.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [
+                      "CVE-2017-1000188"
+                  ],
+                  "CWE": [
+                      "CWE-79"
+                  ],
+                  "ALTERNATIVE": [
+                      "SNYK-JS-EJS-10225"
+                  ]
+              },
+              "credit": [
+                  "Snyk Security Research Team"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+              "cvssScore": "5.9",
+              "patches": [],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-04-24",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/6df11b71-958e-4a4a-9b5b-b0528700c39f",
+              "id": "6df11b71-958e-4a4a-9b5b-b0528700c39f",
+              "name": "lirantal/goof",
+              "source": "github",
+              "packageManager": "npm",
+              "targetFile": "package.json"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/npm:ejs:20161130-1",
+              "id": "npm:ejs:20161130-1",
+              "title": "Denial of Service (DoS)",
+              "type": "vuln",
+              "package": "ejs",
+              "version": "0.8.8",
+              "severity": "medium",
+              "language": "js",
+              "packageManager": "npm",
+              "semver": {
+                  "vulnerable": [
+                      "<2.5.5"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2016-12-06T15:00:00.000Z",
+              "disclosureTime": "2016-11-27T22:00:00.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [
+                      "CVE-2017-1000189"
+                  ],
+                  "CWE": [
+                      "CWE-400"
+                  ],
+                  "ALTERNATIVE": [
+                      "SNYK-JS-EJS-10226"
+                  ]
+              },
+              "credit": [
+                  "Snyk Security Research Team"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "cvssScore": "5.9",
+              "patches": [],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-03-04",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/b6490927-820f-4a24-b9d7-e06f62875be1",
+              "id": "b6490927-820f-4a24-b9d7-e06f62875be1",
+              "name": "lirantal-snyk/goof",
+              "source": "bitbucket-cloud",
+              "packageManager": "npm",
+              "targetFile": "package.json"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/npm:ejs:20161130-1",
+              "id": "npm:ejs:20161130-1",
+              "title": "Denial of Service (DoS)",
+              "type": "vuln",
+              "package": "ejs",
+              "version": "0.8.8",
+              "severity": "medium",
+              "language": "js",
+              "packageManager": "npm",
+              "semver": {
+                  "vulnerable": [
+                      "<2.5.5"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2016-12-06T15:00:00.000Z",
+              "disclosureTime": "2016-11-27T22:00:00.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [
+                      "CVE-2017-1000189"
+                  ],
+                  "CWE": [
+                      "CWE-400"
+                  ],
+                  "ALTERNATIVE": [
+                      "SNYK-JS-EJS-10226"
+                  ]
+              },
+              "credit": [
+                  "Snyk Security Research Team"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+              "cvssScore": "5.9",
+              "patches": [],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-04-24",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/6df11b71-958e-4a4a-9b5b-b0528700c39f",
+              "id": "6df11b71-958e-4a4a-9b5b-b0528700c39f",
+              "name": "lirantal/goof",
+              "source": "github",
+              "packageManager": "npm",
+              "targetFile": "package.json"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/npm:mem:20180117",
+              "id": "npm:mem:20180117",
+              "title": "Denial of Service (DoS)",
+              "type": "vuln",
+              "package": "mem",
+              "version": "1.1.0",
+              "severity": "medium",
+              "language": "js",
+              "packageManager": "npm",
+              "semver": {
+                  "vulnerable": [
+                      "<4.0.0"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2018-08-29T11:23:09.000Z",
+              "disclosureTime": "2018-01-17T18:19:13.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [],
+                  "CWE": [
+                      "CWE-400"
+                  ],
+                  "ALTERNATIVE": [
+                      "SNYK-JS-MEM-11138"
+                  ]
+              },
+              "credit": [
+                  "juancampa"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+              "cvssScore": "5.1",
+              "patches": [],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-04-08",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/0633564b-f4f4-4e15-a539-5b83550c649a",
+              "id": "0633564b-f4f4-4e15-a539-5b83550c649a",
+              "name": "dockly",
+              "source": "cli",
+              "packageManager": "npm",
+              "targetFile": "package.json"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-31325",
+              "id": "SNYK-JAVA-ORGSPRINGFRAMEWORK-31325",
+              "title": "Directory Traversal",
+              "type": "vuln",
+              "package": "org.springframework:spring-core",
+              "version": "3.2.6.RELEASE",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[3.0.0.RELEASE, 3.2.9.RELEASE)",
+                      "[4.0.0.RELEASE, 4.0.5.RELEASE)"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2014-09-05T17:16:58.000Z",
+              "disclosureTime": "2014-09-05T17:16:58.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [
+                      "CVE-2014-3578"
+                  ],
+                  "CWE": [
+                      "CWE-22"
+                  ]
+              },
+              "credit": [
+                  "Takeshi Terada"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+              "cvssScore": "5.3",
+              "patches": [],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-01-04",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/abd45aac-0807-4c9d-bd19-818b8e76a0d2",
+              "id": "abd45aac-0807-4c9d-bd19-818b8e76a0d2",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-web-common/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-ORGSPRINGFRAMEWORK-31325",
+              "id": "SNYK-JAVA-ORGSPRINGFRAMEWORK-31325",
+              "title": "Directory Traversal",
+              "type": "vuln",
+              "package": "org.springframework:spring-core",
+              "version": "3.2.6.RELEASE",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[3.0.0.RELEASE, 3.2.9.RELEASE)",
+                      "[4.0.0.RELEASE, 4.0.5.RELEASE)"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2014-09-05T17:16:58.000Z",
+              "disclosureTime": "2014-09-05T17:16:58.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [
+                      "CVE-2014-3578"
+                  ],
+                  "CWE": [
+                      "CWE-22"
+                  ]
+              },
+              "credit": [
+                  "Takeshi Terada"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+              "cvssScore": "5.3",
+              "patches": [],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-01-04",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/457d29e0-057b-41e6-949a-3126f5c4940b",
+              "id": "457d29e0-057b-41e6-949a-3126f5c4940b",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-web-struts/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:ch.qos.logback:logback-classic:(EPL-1.0_OR_LGPL-2.0)",
+              "id": "snyk:lic:maven:ch.qos.logback:logback-classic:(EPL-1.0_OR_LGPL-2.0)",
+              "title": "Dual license: EPL-1.0, LGPL-2.0",
+              "type": "license",
+              "package": "ch.qos.logback:logback-classic",
+              "version": "1.1.11",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[0.9.18,)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-06-28",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/1d497770-629a-4fdd-ad06-5e24e55d3c8e",
+              "id": "1d497770-629a-4fdd-ad06-5e24e55d3c8e",
+              "name": "lirantal/spring-goof",
+              "source": "gitlab",
+              "packageManager": "maven",
+              "targetFile": "pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:ch.qos.logback:logback-core:(EPL-1.0_OR_LGPL-2.0)",
+              "id": "snyk:lic:maven:ch.qos.logback:logback-core:(EPL-1.0_OR_LGPL-2.0)",
+              "title": "Dual license: EPL-1.0, LGPL-2.0",
+              "type": "license",
+              "package": "ch.qos.logback:logback-core",
+              "version": "1.1.11",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[0.9.18,)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-06-28",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/1d497770-629a-4fdd-ad06-5e24e55d3c8e",
+              "id": "1d497770-629a-4fdd-ad06-5e24e55d3c8e",
+              "name": "lirantal/spring-goof",
+              "source": "gitlab",
+              "packageManager": "maven",
+              "targetFile": "pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:org.aspectj:aspectjweaver:EPL-1.0",
+              "id": "snyk:lic:maven:org.aspectj:aspectjweaver:EPL-1.0",
+              "title": "EPL-1.0 license",
+              "type": "license",
+              "package": "org.aspectj:aspectjweaver",
+              "version": "1.8.2",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[0,)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-01-04",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/68aa257a-c6c2-4332-82f0-fd7f0bc54e19",
+              "id": "68aa257a-c6c2-4332-82f0-fd7f0bc54e19",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-core/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:org.aspectj:aspectjweaver:EPL-1.0",
+              "id": "snyk:lic:maven:org.aspectj:aspectjweaver:EPL-1.0",
+              "title": "EPL-1.0 license",
+              "type": "license",
+              "package": "org.aspectj:aspectjweaver",
+              "version": "1.8.2",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[0,)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-01-04",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/abd45aac-0807-4c9d-bd19-818b8e76a0d2",
+              "id": "abd45aac-0807-4c9d-bd19-818b8e76a0d2",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-web-common/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:org.aspectj:aspectjweaver:EPL-1.0",
+              "id": "snyk:lic:maven:org.aspectj:aspectjweaver:EPL-1.0",
+              "title": "EPL-1.0 license",
+              "type": "license",
+              "package": "org.aspectj:aspectjweaver",
+              "version": "1.8.2",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[0,)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-01-04",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/457d29e0-057b-41e6-949a-3126f5c4940b",
+              "id": "457d29e0-057b-41e6-949a-3126f5c4940b",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-web-struts/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:org.aspectj:aspectjweaver:EPL-1.0",
+              "id": "snyk:lic:maven:org.aspectj:aspectjweaver:EPL-1.0",
+              "title": "EPL-1.0 license",
+              "type": "license",
+              "package": "org.aspectj:aspectjweaver",
+              "version": "1.8.10",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[0,)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-04-29",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/1d497770-629a-4fdd-ad06-5e24e55d3c8e",
+              "id": "1d497770-629a-4fdd-ad06-5e24e55d3c8e",
+              "name": "lirantal/spring-goof",
+              "source": "gitlab",
+              "packageManager": "maven",
+              "targetFile": "pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:org.hibernate.javax.persistence:hibernate-jpa-2.1-api:EPL-1.0",
+              "id": "snyk:lic:maven:org.hibernate.javax.persistence:hibernate-jpa-2.1-api:EPL-1.0",
+              "title": "EPL-1.0 license",
+              "type": "license",
+              "package": "org.hibernate.javax.persistence:hibernate-jpa-2.1-api",
+              "version": "1.0.0.Final",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[0,)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-01-26",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/68aa257a-c6c2-4332-82f0-fd7f0bc54e19",
+              "id": "68aa257a-c6c2-4332-82f0-fd7f0bc54e19",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-core/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:org.hibernate.javax.persistence:hibernate-jpa-2.1-api:EPL-1.0",
+              "id": "snyk:lic:maven:org.hibernate.javax.persistence:hibernate-jpa-2.1-api:EPL-1.0",
+              "title": "EPL-1.0 license",
+              "type": "license",
+              "package": "org.hibernate.javax.persistence:hibernate-jpa-2.1-api",
+              "version": "1.0.0.Final",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[0,)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-01-26",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/abd45aac-0807-4c9d-bd19-818b8e76a0d2",
+              "id": "abd45aac-0807-4c9d-bd19-818b8e76a0d2",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-web-common/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:org.hibernate.javax.persistence:hibernate-jpa-2.1-api:EPL-1.0",
+              "id": "snyk:lic:maven:org.hibernate.javax.persistence:hibernate-jpa-2.1-api:EPL-1.0",
+              "title": "EPL-1.0 license",
+              "type": "license",
+              "package": "org.hibernate.javax.persistence:hibernate-jpa-2.1-api",
+              "version": "1.0.0.Final",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[0,)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-01-26",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/457d29e0-057b-41e6-949a-3126f5c4940b",
+              "id": "457d29e0-057b-41e6-949a-3126f5c4940b",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-web-struts/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:org.hibernate.javax.persistence:hibernate-jpa-2.1-api:EPL-1.0",
+              "id": "snyk:lic:maven:org.hibernate.javax.persistence:hibernate-jpa-2.1-api:EPL-1.0",
+              "title": "EPL-1.0 license",
+              "type": "license",
+              "package": "org.hibernate.javax.persistence:hibernate-jpa-2.1-api",
+              "version": "1.0.0.Final",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[0,)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-04-29",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/1d497770-629a-4fdd-ad06-5e24e55d3c8e",
+              "id": "1d497770-629a-4fdd-ad06-5e24e55d3c8e",
+              "name": "lirantal/spring-goof",
+              "source": "gitlab",
+              "packageManager": "maven",
+              "targetFile": "pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:npm:goof:GPL-2.0",
+              "id": "snyk:lic:npm:goof:GPL-2.0",
+              "title": "GPL-2.0 license",
+              "type": "license",
+              "package": "goof",
+              "version": "1.0.1",
+              "severity": "high",
+              "language": "js",
+              "packageManager": "npm",
+              "semver": {
+                  "vulnerable": [
+                      ">=0"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-03-04",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/b6490927-820f-4a24-b9d7-e06f62875be1",
+              "id": "b6490927-820f-4a24-b9d7-e06f62875be1",
+              "name": "lirantal-snyk/goof",
+              "source": "bitbucket-cloud",
+              "packageManager": "npm",
+              "targetFile": "package.json"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:npm:goof:GPL-2.0",
+              "id": "snyk:lic:npm:goof:GPL-2.0",
+              "title": "GPL-2.0 license",
+              "type": "license",
+              "package": "goof",
+              "version": "1.0.1",
+              "severity": "high",
+              "language": "js",
+              "packageManager": "npm",
+              "semver": {
+                  "vulnerable": [
+                      ">=0"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-04-24",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/6df11b71-958e-4a4a-9b5b-b0528700c39f",
+              "id": "6df11b71-958e-4a4a-9b5b-b0528700c39f",
+              "name": "lirantal/goof",
+              "source": "github",
+              "packageManager": "npm",
+              "targetFile": "package.json"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-ORGHIBERNATE-30098",
+              "id": "SNYK-JAVA-ORGHIBERNATE-30098",
+              "title": "JSM bypass via ReflectionHelper",
+              "type": "vuln",
+              "package": "org.hibernate:hibernate-validator",
+              "version": "4.3.1.Final",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[4.1.0.Beta1, 4.3.2.Final)",
+                      "[5.0.0.Final,5.2.1.Final)"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2014-07-17T16:51:53.000Z",
+              "disclosureTime": "2014-07-17T16:51:53.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [
+                      "CVE-2014-3558"
+                  ],
+                  "CWE": [
+                      "CWE-592"
+                  ]
+              },
+              "credit": [
+                  "Unknown"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+              "cvssScore": "5.3",
+              "patches": [],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-01-04",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/457d29e0-057b-41e6-949a-3126f5c4940b",
+              "id": "457d29e0-057b-41e6-949a-3126f5c4940b",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-web-struts/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:org.hibernate.common:hibernate-commons-annotations:LGPL-2.0",
+              "id": "snyk:lic:maven:org.hibernate.common:hibernate-commons-annotations:LGPL-2.0",
+              "title": "LGPL-2.0 license",
+              "type": "license",
+              "package": "org.hibernate.common:hibernate-commons-annotations",
+              "version": "4.0.5.Final",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[4.0.4.Final, 5.0.2.Final)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-06-27",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/abd45aac-0807-4c9d-bd19-818b8e76a0d2",
+              "id": "abd45aac-0807-4c9d-bd19-818b8e76a0d2",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-web-common/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:org.hibernate.common:hibernate-commons-annotations:LGPL-2.0",
+              "id": "snyk:lic:maven:org.hibernate.common:hibernate-commons-annotations:LGPL-2.0",
+              "title": "LGPL-2.0 license",
+              "type": "license",
+              "package": "org.hibernate.common:hibernate-commons-annotations",
+              "version": "4.0.5.Final",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[4.0.4.Final, 5.0.2.Final)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-06-27",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/457d29e0-057b-41e6-949a-3126f5c4940b",
+              "id": "457d29e0-057b-41e6-949a-3126f5c4940b",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-web-struts/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:org.hibernate:hibernate-core:LGPL-2.0",
+              "id": "snyk:lic:maven:org.hibernate:hibernate-core:LGPL-2.0",
+              "title": "LGPL-2.0 license",
+              "type": "license",
+              "package": "org.hibernate:hibernate-core",
+              "version": "4.3.7.Final",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[3.3.0.CR1, 5.3.1.Final)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-06-27",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/abd45aac-0807-4c9d-bd19-818b8e76a0d2",
+              "id": "abd45aac-0807-4c9d-bd19-818b8e76a0d2",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-web-common/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:org.hibernate:hibernate-core:LGPL-2.0",
+              "id": "snyk:lic:maven:org.hibernate:hibernate-core:LGPL-2.0",
+              "title": "LGPL-2.0 license",
+              "type": "license",
+              "package": "org.hibernate:hibernate-core",
+              "version": "4.3.7.Final",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[3.3.0.CR1, 5.3.1.Final)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-06-27",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/457d29e0-057b-41e6-949a-3126f5c4940b",
+              "id": "457d29e0-057b-41e6-949a-3126f5c4940b",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-web-struts/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:org.hibernate:hibernate-entitymanager:LGPL-2.0",
+              "id": "snyk:lic:maven:org.hibernate:hibernate-entitymanager:LGPL-2.0",
+              "title": "LGPL-2.0 license",
+              "type": "license",
+              "package": "org.hibernate:hibernate-entitymanager",
+              "version": "4.3.7.Final",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[3.5.0.Beta-1, 5.3.1.Final)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-06-27",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/abd45aac-0807-4c9d-bd19-818b8e76a0d2",
+              "id": "abd45aac-0807-4c9d-bd19-818b8e76a0d2",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-web-common/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:org.hibernate:hibernate-entitymanager:LGPL-2.0",
+              "id": "snyk:lic:maven:org.hibernate:hibernate-entitymanager:LGPL-2.0",
+              "title": "LGPL-2.0 license",
+              "type": "license",
+              "package": "org.hibernate:hibernate-entitymanager",
+              "version": "4.3.7.Final",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[3.5.0.Beta-1, 5.3.1.Final)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-06-27",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/457d29e0-057b-41e6-949a-3126f5c4940b",
+              "id": "457d29e0-057b-41e6-949a-3126f5c4940b",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-web-struts/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:org.jboss.logging:jboss-logging:LGPL-2.1",
+              "id": "snyk:lic:maven:org.jboss.logging:jboss-logging:LGPL-2.1",
+              "title": "LGPL-2.1 license",
+              "type": "license",
+              "package": "org.jboss.logging:jboss-logging",
+              "version": "3.1.0.CR2",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[3.0.1.GA, 3.1.2.GA)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-03-17",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/abd45aac-0807-4c9d-bd19-818b8e76a0d2",
+              "id": "abd45aac-0807-4c9d-bd19-818b8e76a0d2",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-web-common/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:org.jboss.logging:jboss-logging:LGPL-2.1",
+              "id": "snyk:lic:maven:org.jboss.logging:jboss-logging:LGPL-2.1",
+              "title": "LGPL-2.1 license",
+              "type": "license",
+              "package": "org.jboss.logging:jboss-logging",
+              "version": "3.1.0.CR2",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[3.0.1.GA, 3.1.2.GA)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-03-17",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/457d29e0-057b-41e6-949a-3126f5c4940b",
+              "id": "457d29e0-057b-41e6-949a-3126f5c4940b",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-web-struts/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:c3p0:c3p0:LGPL-3.0",
+              "id": "snyk:lic:maven:c3p0:c3p0:LGPL-3.0",
+              "title": "LGPL-3.0 license",
+              "type": "license",
+              "package": "c3p0:c3p0",
+              "version": "0.9.1.2",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[0.9.0.4,)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-03-17",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/68aa257a-c6c2-4332-82f0-fd7f0bc54e19",
+              "id": "68aa257a-c6c2-4332-82f0-fd7f0bc54e19",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-core/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:c3p0:c3p0:LGPL-3.0",
+              "id": "snyk:lic:maven:c3p0:c3p0:LGPL-3.0",
+              "title": "LGPL-3.0 license",
+              "type": "license",
+              "package": "c3p0:c3p0",
+              "version": "0.9.1.2",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[0.9.0.4,)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-03-17",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/abd45aac-0807-4c9d-bd19-818b8e76a0d2",
+              "id": "abd45aac-0807-4c9d-bd19-818b8e76a0d2",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-web-common/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:c3p0:c3p0:LGPL-3.0",
+              "id": "snyk:lic:maven:c3p0:c3p0:LGPL-3.0",
+              "title": "LGPL-3.0 license",
+              "type": "license",
+              "package": "c3p0:c3p0",
+              "version": "0.9.1.2",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[0.9.0.4,)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-03-17",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/457d29e0-057b-41e6-949a-3126f5c4940b",
+              "id": "457d29e0-057b-41e6-949a-3126f5c4940b",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-web-struts/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:maven:com.h2database:h2:MPL-2.0",
+              "id": "snyk:lic:maven:com.h2database:h2:MPL-2.0",
+              "title": "MPL-2.0 license",
+              "type": "license",
+              "package": "com.h2database:h2",
+              "version": "1.4.196",
+              "severity": "medium",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[1.4.179, 1.4.187)",
+                      "[1.4.188,)"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-04-29",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/1d497770-629a-4fdd-ad06-5e24e55d3c8e",
+              "id": "1d497770-629a-4fdd-ad06-5e24e55d3c8e",
+              "name": "lirantal/spring-goof",
+              "source": "gitlab",
+              "packageManager": "maven",
+              "targetFile": "pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:npm:symbol:MPL-2.0",
+              "id": "snyk:lic:npm:symbol:MPL-2.0",
+              "title": "MPL-2.0 license",
+              "type": "license",
+              "package": "symbol",
+              "version": "0.2.3",
+              "severity": "medium",
+              "language": "js",
+              "packageManager": "npm",
+              "semver": {
+                  "vulnerable": [
+                      ">=0"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-03-04",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/b6490927-820f-4a24-b9d7-e06f62875be1",
+              "id": "b6490927-820f-4a24-b9d7-e06f62875be1",
+              "name": "lirantal-snyk/goof",
+              "source": "bitbucket-cloud",
+              "packageManager": "npm",
+              "targetFile": "package.json"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/snyk:lic:npm:symbol:MPL-2.0",
+              "id": "snyk:lic:npm:symbol:MPL-2.0",
+              "title": "MPL-2.0 license",
+              "type": "license",
+              "package": "symbol",
+              "version": "0.2.3",
+              "severity": "medium",
+              "language": "js",
+              "packageManager": "npm",
+              "semver": {
+                  "vulnerable": [
+                      ">=0"
+                  ]
+              },
+              "isIgnored": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-04-24",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/6df11b71-958e-4a4a-9b5b-b0528700c39f",
+              "id": "6df11b71-958e-4a4a-9b5b-b0528700c39f",
+              "name": "lirantal/goof",
+              "source": "github",
+              "packageManager": "npm",
+              "targetFile": "package.json"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/npm:qs:20170213",
+              "id": "npm:qs:20170213",
+              "title": "Prototype Override Protection Bypass",
+              "type": "vuln",
+              "package": "qs",
+              "version": "1.2.2",
+              "severity": "high",
+              "language": "js",
+              "packageManager": "npm",
+              "semver": {
+                  "vulnerable": [
+                      "<6.0.4",
+                      ">=6.1.0 <6.1.2",
+                      ">=6.2.0 <6.2.3",
+                      ">=6.3.0 <6.3.2"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2017-03-01T10:00:54.000Z",
+              "disclosureTime": "2017-02-13T00:00:00.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [
+                      "CVE-2017-1000048"
+                  ],
+                  "CWE": [
+                      "CWE-20"
+                  ],
+                  "ALTERNATIVE": [
+                      "SNYK-JS-QS-10407"
+                  ]
+              },
+              "credit": [
+                  "Snyk Security Research Team"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+              "cvssScore": "7.4",
+              "patches": [
+                  {
+                      "id": "patch:npm:qs:20170213:0",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/qs/20170213/630_632.patch"
+                      ],
+                      "version": "=6.3.0",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.683816Z"
+                  },
+                  {
+                      "id": "patch:npm:qs:20170213:1",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/qs/20170213/631_632.patch"
+                      ],
+                      "version": "=6.3.1",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.684986Z"
+                  },
+                  {
+                      "id": "patch:npm:qs:20170213:2",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/qs/20170213/621_623.patch"
+                      ],
+                      "version": "=6.2.1",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.686294Z"
+                  },
+                  {
+                      "id": "patch:npm:qs:20170213:3",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/qs/20170213/622_623.patch"
+                      ],
+                      "version": "=6.2.2",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.687714Z"
+                  },
+                  {
+                      "id": "patch:npm:qs:20170213:4",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/qs/20170213/610_612.patch"
+                      ],
+                      "version": "=6.1.0",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.688957Z"
+                  },
+                  {
+                      "id": "patch:npm:qs:20170213:5",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/qs/20170213/611_612.patch"
+                      ],
+                      "version": "=6.1.1",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.690235Z"
+                  },
+                  {
+                      "id": "patch:npm:qs:20170213:6",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/qs/20170213/602_604.patch"
+                      ],
+                      "version": "=6.0.2",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.691571Z"
+                  },
+                  {
+                      "id": "patch:npm:qs:20170213:7",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/qs/20170213/603_604.patch"
+                      ],
+                      "version": "=6.0.3",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.692963Z"
+                  }
+              ],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-03-04",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/b6490927-820f-4a24-b9d7-e06f62875be1",
+              "id": "b6490927-820f-4a24-b9d7-e06f62875be1",
+              "name": "lirantal-snyk/goof",
+              "source": "bitbucket-cloud",
+              "packageManager": "npm",
+              "targetFile": "package.json"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/npm:qs:20170213",
+              "id": "npm:qs:20170213",
+              "title": "Prototype Override Protection Bypass",
+              "type": "vuln",
+              "package": "qs",
+              "version": "1.2.2",
+              "severity": "high",
+              "language": "js",
+              "packageManager": "npm",
+              "semver": {
+                  "vulnerable": [
+                      "<6.0.4",
+                      ">=6.1.0 <6.1.2",
+                      ">=6.2.0 <6.2.3",
+                      ">=6.3.0 <6.3.2"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2017-03-01T10:00:54.000Z",
+              "disclosureTime": "2017-02-13T00:00:00.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [
+                      "CVE-2017-1000048"
+                  ],
+                  "CWE": [
+                      "CWE-20"
+                  ],
+                  "ALTERNATIVE": [
+                      "SNYK-JS-QS-10407"
+                  ]
+              },
+              "credit": [
+                  "Snyk Security Research Team"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+              "cvssScore": "7.4",
+              "patches": [
+                  {
+                      "id": "patch:npm:qs:20170213:0",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/qs/20170213/630_632.patch"
+                      ],
+                      "version": "=6.3.0",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.683816Z"
+                  },
+                  {
+                      "id": "patch:npm:qs:20170213:1",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/qs/20170213/631_632.patch"
+                      ],
+                      "version": "=6.3.1",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.684986Z"
+                  },
+                  {
+                      "id": "patch:npm:qs:20170213:2",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/qs/20170213/621_623.patch"
+                      ],
+                      "version": "=6.2.1",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.686294Z"
+                  },
+                  {
+                      "id": "patch:npm:qs:20170213:3",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/qs/20170213/622_623.patch"
+                      ],
+                      "version": "=6.2.2",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.687714Z"
+                  },
+                  {
+                      "id": "patch:npm:qs:20170213:4",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/qs/20170213/610_612.patch"
+                      ],
+                      "version": "=6.1.0",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.688957Z"
+                  },
+                  {
+                      "id": "patch:npm:qs:20170213:5",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/qs/20170213/611_612.patch"
+                      ],
+                      "version": "=6.1.1",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.690235Z"
+                  },
+                  {
+                      "id": "patch:npm:qs:20170213:6",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/qs/20170213/602_604.patch"
+                      ],
+                      "version": "=6.0.2",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.691571Z"
+                  },
+                  {
+                      "id": "patch:npm:qs:20170213:7",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/qs/20170213/603_604.patch"
+                      ],
+                      "version": "=6.0.3",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.692963Z"
+                  }
+              ],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-04-24",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/6df11b71-958e-4a4a-9b5b-b0528700c39f",
+              "id": "6df11b71-958e-4a4a-9b5b-b0528700c39f",
+              "name": "lirantal/goof",
+              "source": "github",
+              "packageManager": "npm",
+              "targetFile": "package.json"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/npm:hoek:20180212",
+              "id": "npm:hoek:20180212",
+              "title": "Prototype Pollution",
+              "type": "vuln",
+              "package": "hoek",
+              "version": "0.9.1",
+              "severity": "medium",
+              "language": "js",
+              "packageManager": "npm",
+              "semver": {
+                  "vulnerable": [
+                      "<4.2.1",
+                      ">=5.0.0 <5.0.3"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2018-02-14T13:22:50.000Z",
+              "disclosureTime": "2018-02-12T22:28:27.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [
+                      "CVE-2018-3728"
+                  ],
+                  "CWE": [
+                      "CWE-400"
+                  ],
+                  "NSP": [
+                      566
+                  ],
+                  "ALTERNATIVE": [
+                      "SNYK-JS-HOEK-12061"
+                  ]
+              },
+              "credit": [
+                  "Olivier Arteau (HoLyVieR)"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+              "cvssScore": "6.3",
+              "patches": [
+                  {
+                      "id": "patch:npm:hoek:20180212:0",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/hoek/20180212/20180212_0_0_hoek_5aed1a8c4a3d55722d1c799f2368857bf418d6df.patch"
+                      ],
+                      "version": "<4.2.1 >=4.1.0 || <3.0.4 >=3.0.0",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.715429Z"
+                  },
+                  {
+                      "id": "patch:npm:hoek:20180212:1",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/hoek/20180212/20180212_0_1_hoek_32ed5c9413321fbc37da5ca81a7cbab693786dee.patch"
+                      ],
+                      "version": ">=2.0.0 <3.0.0",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.716800Z"
+                  }
+              ],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-03-04",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/b6490927-820f-4a24-b9d7-e06f62875be1",
+              "id": "b6490927-820f-4a24-b9d7-e06f62875be1",
+              "name": "lirantal-snyk/goof",
+              "source": "bitbucket-cloud",
+              "packageManager": "npm",
+              "targetFile": "package.json"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/npm:hoek:20180212",
+              "id": "npm:hoek:20180212",
+              "title": "Prototype Pollution",
+              "type": "vuln",
+              "package": "hoek",
+              "version": "0.9.1",
+              "severity": "medium",
+              "language": "js",
+              "packageManager": "npm",
+              "semver": {
+                  "vulnerable": [
+                      "<4.2.1",
+                      ">=5.0.0 <5.0.3"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2018-02-14T13:22:50.000Z",
+              "disclosureTime": "2018-02-12T22:28:27.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [
+                      "CVE-2018-3728"
+                  ],
+                  "CWE": [
+                      "CWE-400"
+                  ],
+                  "NSP": [
+                      566
+                  ],
+                  "ALTERNATIVE": [
+                      "SNYK-JS-HOEK-12061"
+                  ]
+              },
+              "credit": [
+                  "Olivier Arteau (HoLyVieR)"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+              "cvssScore": "6.3",
+              "patches": [
+                  {
+                      "id": "patch:npm:hoek:20180212:0",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/hoek/20180212/20180212_0_0_hoek_5aed1a8c4a3d55722d1c799f2368857bf418d6df.patch"
+                      ],
+                      "version": "<4.2.1 >=4.1.0 || <3.0.4 >=3.0.0",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.715429Z"
+                  },
+                  {
+                      "id": "patch:npm:hoek:20180212:1",
+                      "urls": [
+                          "https://s3.amazonaws.com/snyk-rules-pre-repository/snapshots/master/patches/npm/hoek/20180212/20180212_0_1_hoek_32ed5c9413321fbc37da5ca81a7cbab693786dee.patch"
+                      ],
+                      "version": ">=2.0.0 <3.0.0",
+                      "comments": [],
+                      "modificationTime": "2018-09-04T11:57:08.716800Z"
+                  }
+              ],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-04-24",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/6df11b71-958e-4a4a-9b5b-b0528700c39f",
+              "id": "6df11b71-958e-4a4a-9b5b-b0528700c39f",
+              "name": "lirantal/goof",
+              "source": "github",
+              "packageManager": "npm",
+              "targetFile": "package.json"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/SNYK-JS-MARKED-451341",
+              "id": "SNYK-JS-MARKED-451341",
+              "title": "Regular Expression Denial of Service (ReDoS)",
+              "type": "vuln",
+              "package": "marked",
+              "version": "0.4.0",
+              "severity": "medium",
+              "language": "js",
+              "packageManager": "npm",
+              "semver": {
+                  "vulnerable": [
+                      ">=0.4.0 <0.7.0"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2019-07-02T09:25:50.000Z",
+              "disclosureTime": "2019-05-28T09:25:56.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [],
+                  "CWE": [
+                      "CWE-400"
+                  ]
+              },
+              "credit": [
+                  "Bart Grantham"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+              "cvssScore": "5.3",
+              "patches": [],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-07-03",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/0633564b-f4f4-4e15-a539-5b83550c649a",
+              "id": "0633564b-f4f4-4e15-a539-5b83550c649a",
+              "name": "dockly",
+              "source": "cli",
+              "packageManager": "npm",
+              "targetFile": "package.json"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-DOM4J-174153",
+              "id": "SNYK-JAVA-DOM4J-174153",
+              "title": "XML External Entity (XXE) Injection",
+              "type": "vuln",
+              "package": "dom4j:dom4j",
+              "version": "1.6.1",
+              "severity": "high",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[0,]"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2018-08-21T14:16:13.000Z",
+              "disclosureTime": "2018-07-01T19:12:29.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [
+                      "CVE-2018-1000632"
+                  ],
+                  "CWE": [
+                      "CWE-611"
+                  ]
+              },
+              "credit": [
+                  "Mario Areias"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+              "cvssScore": "7.5",
+              "patches": [],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-04-11",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/68aa257a-c6c2-4332-82f0-fd7f0bc54e19",
+              "id": "68aa257a-c6c2-4332-82f0-fd7f0bc54e19",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-core/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-DOM4J-174153",
+              "id": "SNYK-JAVA-DOM4J-174153",
+              "title": "XML External Entity (XXE) Injection",
+              "type": "vuln",
+              "package": "dom4j:dom4j",
+              "version": "1.6.1",
+              "severity": "high",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[0,]"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2018-08-21T14:16:13.000Z",
+              "disclosureTime": "2018-07-01T19:12:29.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [
+                      "CVE-2018-1000632"
+                  ],
+                  "CWE": [
+                      "CWE-611"
+                  ]
+              },
+              "credit": [
+                  "Mario Areias"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+              "cvssScore": "7.5",
+              "patches": [],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-04-30",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/1d497770-629a-4fdd-ad06-5e24e55d3c8e",
+              "id": "1d497770-629a-4fdd-ad06-5e24e55d3c8e",
+              "name": "lirantal/spring-goof",
+              "source": "gitlab",
+              "packageManager": "maven",
+              "targetFile": "pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-JAVAXSERVLET-30449",
+              "id": "SNYK-JAVA-JAVAXSERVLET-30449",
+              "title": "XML External Entity (XXE) Injection",
+              "type": "vuln",
+              "package": "javax.servlet:jstl",
+              "version": "1.2",
+              "severity": "high",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[0,]"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2015-02-27T16:13:27.000Z",
+              "disclosureTime": "2015-02-27T16:13:27.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [
+                      "CVE-2015-0254"
+                  ],
+                  "CWE": [
+                      "CWE-611"
+                  ]
+              },
+              "credit": [
+                  "David Jorm"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+              "cvssScore": "7.3",
+              "patches": [],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-01-04",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/abd45aac-0807-4c9d-bd19-818b8e76a0d2",
+              "id": "abd45aac-0807-4c9d-bd19-818b8e76a0d2",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-web-common/pom.xml"
+          }
+      },
+      {
+          "issue": {
+              "url": "https://snyk.io/vuln/SNYK-JAVA-JAVAXSERVLET-30449",
+              "id": "SNYK-JAVA-JAVAXSERVLET-30449",
+              "title": "XML External Entity (XXE) Injection",
+              "type": "vuln",
+              "package": "javax.servlet:jstl",
+              "version": "1.2",
+              "severity": "high",
+              "language": "java",
+              "packageManager": "maven",
+              "semver": {
+                  "vulnerable": [
+                      "[0,]"
+                  ]
+              },
+              "isIgnored": false,
+              "publicationTime": "2015-02-27T16:13:27.000Z",
+              "disclosureTime": "2015-02-27T16:13:27.000Z",
+              "isUpgradable": false,
+              "isPatchable": false,
+              "identifiers": {
+                  "CVE": [
+                      "CVE-2015-0254"
+                  ],
+                  "CWE": [
+                      "CWE-611"
+                  ]
+              },
+              "credit": [
+                  "David Jorm"
+              ],
+              "CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+              "cvssScore": "7.3",
+              "patches": [],
+              "isPatched": false,
+              "jiraIssueUrl": null
+          },
+          "isFixed": false,
+          "introducedDate": "2019-01-04",
+          "project": {
+              "url": "https://snyk.io/org/snyk-demo-567/project/457d29e0-057b-41e6-949a-3126f5c4940b",
+              "id": "457d29e0-057b-41e6-949a-3126f5c4940b",
+              "name": "lirantal/java-goof",
+              "source": "github",
+              "packageManager": "maven",
+              "targetFile": "todolist-web-struts/pom.xml"
+          }
+      }
+  ],
+  "total": 51
+}
