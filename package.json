@@ -10,6 +10,7 @@
   "scripts": {
     "prepare": "yarn run build",
     "build": "tsc",
+    "develop": "tsc --watch",
     "lint": "eslint src/**/*.ts",
     "lint:fix": "eslint src/**/*.ts --fix",
     "format": "prettier-standard '**/*.js'",
