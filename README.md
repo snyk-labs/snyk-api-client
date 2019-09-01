@@ -31,13 +31,55 @@ npm install --save snyk-api
 # Usage
 
 ```js
-// @TODO
-const {} = require('snyk-api')
+/**
+ * Import `Client` and instantiate it with an API token.
+ * You can also import `Errors` to match against when
+ * catching them
+ */
+const { Client } = require("snyk-api");
+const snykApiToken = "1234";
+const snykClient = new Client({
+  token: snykApiToken,
+});
+
+/**
+ * Get all reported issues across projects based on filters
+ */
+const res = await snykClient.issues.getAll({ filters });
 ```
 
-# Example
+# Examples
 
-<!-- TODO -->
+## Issues
+
+Getting all issues based on specific filters:
+
+```js
+const { Client } = require("snyk-api");
+const snykApiToken = "1234";
+const snykClient = new Client({
+  token: snykApiToken,
+});
+
+const filters = {
+  date: {
+    from: "2019-01-01",
+    to: "2019-10-01",
+  },
+  orgs: ["a30b7399-4e0c-4f6e-ba84-b27e131db54c"],
+  severity: ["high", "medium", "low"],
+  types: ["vuln", "license"],
+  languages: ["node", "ruby", "java", "scala", "python", "golang", "php", "dotnet"],
+  ignored: false,
+  patched: false,
+  fixable: false,
+  isFixed: false,
+  isUpgradable: true,
+  isPatchable: true,
+};
+
+const res = await snykClient.issues.getAll({ filters });
+```
 
 # Contributing
 
