@@ -5,7 +5,7 @@ import { Errors } from "../src/index";
 describe("Errors", () => {
   describe("Errors exported properly", () => {
     test("should export errors", () => {
-      let err;
+      let err: Error;
       err = new Errors.RequestError();
       expect(err instanceof Error).toBe(true);
 
