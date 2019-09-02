@@ -6,30 +6,31 @@ import Got from "got";
 export class Client {
   public token: string;
   public baseUrl: string;
-  public baseDomain: string;
-  public baseApiUrl: string;
+  public apiUrl: string;
+  public baseApiPath: string;
   protected request: Got.GotInstance<any>;
   public issues: Issues;
 
   constructor({ token }: { token: string }) {
     this.token = token;
 
+    this.baseApiPath = "/api/v1";
+    this.baseUrl = "https://snyk.io";
+
+    this.apiUrl = this.baseUrl + this.baseApiPath;
+
     this.request = Got.extend({
-      baseUrl: this.baseUrl,
+      baseUrl: this.apiUrl,
       headers: {
         authorization: `token ${this.token}`,
       },
     });
 
-    this.baseApiUrl = "/api/v1";
-    this.baseDomain = "https://snyk.io";
-    this.baseUrl = this.baseDomain + this.baseApiUrl;
-
     this.issues = new Issues(this);
   }
 
   public async makeRequest({ path, headers = {}, queryParams, body, method }): Promise<ClientResponse> {
-    const url = this.baseUrl + path;
+    const url = path;
 
     const options = {
       headers,
