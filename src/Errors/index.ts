@@ -1,2 +1,2 @@
-export { OneError } from "./OneError";
-export { TwoError } from "./TwoError";
+export { RequestError } from "./RequestError";
+export { HTTPError } from "./HTTPError";

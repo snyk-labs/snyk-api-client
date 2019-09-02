@@ -1,6 +1,5 @@
 import nock from "nock";
 import { Client } from "../src/Client";
-import { Errors } from "../src/index";
 
 import fixtureIssuesAll from "./fixtures/Issues.all.fixture.json";
 const SNYK_API_HOST = "https://snyk.io";
@@ -41,12 +40,5 @@ describe("Issues API", () => {
 
     const firstIssue = res[0];
     expect(typeof firstIssue["issue"]).toBe("object");
-  });
-});
-
-describe("Errors exported properly", () => {
-  test("should export errors", () => {
-    const err = new Errors.OneError();
-    expect(err instanceof Error).toBe(true);
   });
 });

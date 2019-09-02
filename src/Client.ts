@@ -1,5 +1,6 @@
 import { Issues } from "./Api/Issues";
 import { ClientResponse } from "./Client.types";
+import { HTTPError, RequestError } from "./Errors";
 import Got from "got";
 
 export class Client {
@@ -42,11 +43,28 @@ export class Client {
       options.json = true;
     }
 
-    const result = await this.request(url, options);
-    return {
-      body: result.body,
-      statusCode: result.statusCode,
-      statusMessage: result.statusMessage,
-    };
+    try {
+      const result = await this.request(url, options);
+      return {
+        body: result.body,
+        statusCode: result.statusCode,
+        statusMessage: result.statusMessage,
+      };
+    } catch (clientError) {
+      if (clientError.name === "HTTPError") {
+        const err = new HTTPError(clientError.message);
+        err.code = clientError.statusCode;
+        err.metadata = {
+          message: clientError.body.message,
+          error: clientError.body.error,
+          snykRequestId: clientError.headers["snyk-request-id"],
+        };
+
+        throw err;
+      }
+
+      const err = new RequestError(clientError.message);
+      throw err;
+    }
   }
 }
