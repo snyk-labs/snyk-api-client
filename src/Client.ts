@@ -11,11 +11,11 @@ export class Client {
   protected request: Got.GotInstance<any>;
   public issues: Issues;
 
-  constructor({ token }: { token: string }) {
+  constructor({ token, baseUrl }: { token: string; baseUrl?: string }) {
     this.token = token;
 
     this.baseApiPath = "/api/v1";
-    this.baseUrl = "https://snyk.io";
+    this.baseUrl = baseUrl || "https://snyk.io";
 
     this.apiUrl = this.baseUrl + this.baseApiPath;
 
@@ -65,6 +65,7 @@ export class Client {
       }
 
       const err = new RequestError(clientError.message);
+      err.code = clientError.name;
       throw err;
     }
   }

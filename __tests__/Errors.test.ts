@@ -61,9 +61,46 @@ describe("Errors", () => {
       } catch (error) {
         expect(error).toBeInstanceOf(Errors.HTTPError);
         expect(error.code).toBe(500);
+        expect(error.name).toBe("HTTPError");
         expect(error.metadata.message).toBe("bad API request, please contact support@snyk.io for assistance");
         expect(error.metadata.error).toBe("unsupported url");
         expect(error.metadata.snykRequestId).toBe("12345");
+      }
+    });
+
+    test("RequestError should be thrown upon a request error", async () => {
+      expect.hasAssertions();
+
+      const snykClient = new Client({
+        token: "1234",
+        baseUrl: "hts://snyk.io",
+      });
+
+      const dateStart = "2019-01-01";
+      const dateEnd = "2019-10-01";
+      const filters = {
+        date: {
+          from: dateStart,
+          to: dateEnd,
+        },
+        orgs: ["a30b7399-4e0c-4f6e-ba84-b27e131db54c"],
+        severity: ["high", "medium", "low"],
+        types: ["vuln", "license"],
+        languages: ["node", "ruby", "java", "scala", "python", "golang", "php", "dotnet"],
+        ignored: false,
+        patched: false,
+        fixable: false,
+        isFixed: false,
+        isUpgradable: false,
+        isPatchable: false,
+      };
+
+      try {
+        await snykClient.issues.getAll({ filters });
+      } catch (error) {
+        expect(error).toBeInstanceOf(Errors.RequestError);
+        expect(error.name).toBe("RequestError");
+        expect(error.code).toBe("UnsupportedProtocolError");
       }
     });
   });

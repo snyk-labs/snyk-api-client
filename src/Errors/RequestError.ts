@@ -1,4 +1,5 @@
 export class RequestError extends Error {
+  public code: string;
   constructor(message?: string) {
     super(message);
 
