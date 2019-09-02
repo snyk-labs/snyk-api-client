@@ -2,6 +2,7 @@ import { Issues } from "./Api/Issues";
 import { ClientResponse } from "./Client.types";
 import { HTTPError, RequestError } from "./Errors";
 import Got from "got";
+import pkgInfo from "../package.json";
 
 export class Client {
   public token: string;
@@ -23,13 +24,14 @@ export class Client {
       baseUrl: this.apiUrl,
       headers: {
         authorization: `token ${this.token}`,
+        "user-agent": `Snyk API Client v${pkgInfo.version}`,
       },
     });
 
     this.issues = new Issues(this);
   }
 
-  public async makeRequest({ path, headers = {}, queryParams, body, method }): Promise<ClientResponse> {
+  public async makeRequest({ path, headers, queryParams, body, method }): Promise<ClientResponse> {
     const url = path;
 
     const options = {
