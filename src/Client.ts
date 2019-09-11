@@ -31,7 +31,19 @@ export class Client {
     this.issues = new Issues(this);
   }
 
-  public async makeRequest({ path, headers, queryParams, body, method }): Promise<ClientResponse> {
+  public async makeRequest({
+    path,
+    headers,
+    queryParams,
+    body,
+    method,
+  }: {
+    path: string;
+    headers?: object;
+    queryParams: object;
+    body: object;
+    method: string;
+  }): Promise<ClientResponse> {
     const url = path;
 
     const options = {
