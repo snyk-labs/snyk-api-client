@@ -43,7 +43,7 @@ describe("Errors", () => {
 
       nock("https://snyk.io")
         .post("/api/v1/reporting/issues")
-        .query({ from: dateStart, to: dateEnd })
+        .query({ from: dateStart, to: dateEnd, perPage: 1000 })
         .reply(
           500,
           {

@@ -32,7 +32,7 @@ describe("Issues API", () => {
 
     nock(SNYK_API_HOST)
       .post("/api/v1/reporting/issues")
-      .query({ from: dateStart, to: dateEnd })
+      .query({ from: dateStart, to: dateEnd, perPage: 1000 })
       .reply(200, fixtureIssuesAll);
 
     const res = await snykClient.issues.getAll({ filters });

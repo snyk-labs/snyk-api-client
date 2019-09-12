@@ -30,7 +30,7 @@ describe("Client", () => {
       nock("https://snyk.io")
         .post("/api/v1/reporting/issues")
         .matchHeader("User-Agent", /Snyk API Client v0.0.0-development/)
-        .query({ from: dateStart, to: dateEnd })
+        .query({ from: dateStart, to: dateEnd, perPage: 1000 })
         .reply(200);
 
       await snykClient.issues.getAll({ filters });
