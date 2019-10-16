@@ -24,7 +24,7 @@ export class Client {
       baseUrl: this.apiUrl,
       headers: {
         authorization: `token ${this.token}`,
-        "user-agent": `Snyk API Client v${pkgInfo.version}`,
+        "user-agent": `Node.js-API-Client/${pkgInfo.version}`,
       },
     });
 
