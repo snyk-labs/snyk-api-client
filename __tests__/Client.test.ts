@@ -29,7 +29,7 @@ describe("Client", () => {
 
       nock("https://snyk.io")
         .post("/api/v1/reporting/issues")
-        .matchHeader("User-Agent", /Node.js-API-Client\/0.0.0-development/)
+        .matchHeader("User-Agent", /node-api-client\/0.0.0-development/)
         .query({ from: dateStart, to: dateEnd, perPage: 1000 })
         .reply(200);
 

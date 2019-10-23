@@ -24,7 +24,7 @@ export class Client {
       baseUrl: this.apiUrl,
       headers: {
         authorization: `token ${this.token}`,
-        "user-agent": `Node.js-API-Client/${pkgInfo.version}`,
+        "user-agent": `node-api-client/${pkgInfo.version}`,
       },
     });
 
